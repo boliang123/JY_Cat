@@ -1,0 +1,20 @@
+# Windows
+[Dd]esktop.ini
+Thumbs.db
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+
+# Node.js
+node_modules/
+<<<<<<< HEAD
+cloudfunctions/package-lock.json
+=======
+cloudfunctions/package-lock.json
+project.private.config.json
+>>>>>>> 61d770c (公告版本)

@@ -1,0 +1,66 @@
+/**app.wxss**/
+page {
+  /* 定义一些颜色变量 */
+<<<<<<< HEAD
+  /*
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);*/
+  /* --color-primary: #ffd101; */
+  /*个喵背景*/
+  /* --color-primary: #ffd101; */
+  --color-primary: #DEC9B2;
+  /*--color-primary-dark: #dfb600;*/
+  --color-primary-dark: #DEC9B2;
+  --color-white-dark: #fafafa;
+
+  --color-gray-light: #f7f7fa;
+=======
+  --color-primary: #DEC9B2;
+  --color-primary-dark: #DEC9B2;
+  --color-primary-light: #fff7d4;
+
+  --color-white-dark: #fafafa;
+
+  --color-gray-light: #f7f7fa;
+  --color-gray-normal:#eeeeee;
+>>>>>>> 61d770c (公告版本)
+  --color-gray: #dddddd;
+  --color-gray-dark: #bbbbbb;
+  --color-gray-max: #888;
+
+  --color-black-min:#414141;
+  --color-black-light: #222222;
+
+  --color-black-transparent: rgba(0,0,0,0.5);
+<<<<<<< HEAD
+=======
+
+  --color-red: #dc3545;
+  --color-red-dark: #8b0000;
+
+  --color-green: #22ad6d;
+  --color-green-dark: #015e32;
+>>>>>>> 61d770c (公告版本)
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+} 
+
+/* 下面是没有授权的 */
+.unAuth {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.unAuth text {
+  margin: 600rpx 0 30rpx 0;
+  text-align: center;
+  font-size: 34rpx;
+}
+
+@import '/packages/weui/weui-wxss/dist/style/weui.wxss'

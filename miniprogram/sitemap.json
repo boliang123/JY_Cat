@@ -1,0 +1,28 @@
+{
+  "rules": [
+    {
+      "action": "allow",
+      "page": "pages/genealogy/genealogy"
+    },
+    {
+      "action": "allow",
+      "page": "pages/recognize/recognize"
+    },
+    {
+      "action": "allow",
+      "page": "pages/info/info"
+    },
+    {
+      "action": "allow",
+<<<<<<< HEAD
+      "page": "pages/science/science"
+=======
+      "page": "pages/news/news"
+>>>>>>> 61d770c (公告版本)
+    },
+    {
+      "action": "disallow",
+      "page": "*"
+    }
+  ]
+}

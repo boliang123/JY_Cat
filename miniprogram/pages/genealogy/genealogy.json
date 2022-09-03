@@ -1,0 +1,10 @@
+{
+<<<<<<< HEAD
+  "usingComponents": {},
+=======
+  "usingComponents": {
+    "newsModal": "/components/newsModal/newsModal"
+  },
+>>>>>>> 61d770c (公告版本)
+  "disableScroll": true
+}

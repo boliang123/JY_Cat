@@ -1,0 +1,10 @@
+{
+    "component": true,
+<<<<<<< HEAD
+    "usingComponents": {}
+=======
+    "usingComponents": {
+        "heart": "/packages/heart-button/heart"
+    }
+>>>>>>> 61d770c (公告版本)
+}
